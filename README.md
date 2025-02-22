@@ -11,10 +11,12 @@
 ### Model-2: Supervised Learning (50% Data)
 - **Description**: This model is trained using **50% of the Brain Tumor dataset**.
 - **Accuracy**: 84%
+- **Goal**: The current accuracy is 84%, but I aim to improve it to exceed **93%** by experimenting with model adjustments and optimization techniques.
+
 
 ## Dataset
 - The dataset used for training is a **Brain Tumor Dataset**,
-- [Link Text](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
+- [Dataset Link](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
 
 
 
