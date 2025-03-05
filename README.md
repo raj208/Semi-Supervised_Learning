@@ -13,6 +13,11 @@
 - **Accuracy**: 84%
 - **Goal**: The current accuracy is 84%, but I aim to improve it to exceed **93%** by experimenting with model adjustments and optimization techniques.
 
+### Model-3: Supervised Learning (50% Data)
+- **Description** : This model is trained using **50% of the Brain Tumor dataset** with **data augmentation**, effectively increasing the dataset size to **twice its original length**.
+- **Accuracy**: 94%
+
+
 
 ## Dataset
 - The dataset used for training is a **Brain Tumor Dataset**,
