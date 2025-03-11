@@ -2,7 +2,7 @@
 
 **Note:** Semi-Supervised Learning has not yet been applied to the model. I'm currently working on it and will update the project as I make progress.
 
-## Models
+## Supervised Models
 
 ### Model-1: Fully Supervised Learning (without Augmentation)
 - **Description**: This model is trained using the **entire Brain Tumor dataset** (100% of the data).
@@ -27,6 +27,31 @@
 - **Accuracy**: 94%
 
 
+
+## **SSL_Model-1: Training Progression**
+
+### **Model-1 (Initial Training)**
+- Trained on **50% labeled data**.
+- **Accuracy:** **95%**
+
+### **Model-2 (First Iteration of Pseudo-Labeling)**
+- Selected **10% of the unlabeled data** from the remaining 50%.
+- Pseudo-labeled the selected data using **Model-1**.
+- Augmented and **stacked** it into the training set.
+- **Accuracy:** **92%**
+
+### **Model-3 (Second Iteration of Pseudo-Labeling)**
+- Selected another **10% of the unlabeled data** from the remaining portion.
+- Pseudo-labeled the selected data using **Model-2**.
+- Augmented and **stacked** it into the training set.
+- **Accuracy:** **91%**
+
+- Potential improvements:
+  - Using a **higher confidence threshold** for pseudo-labeling.
+  - Applying **better augmentation strategies**.
+  - Fine-tuning with **semi-supervised learning techniques**.
+
+---
 
 ## Dataset
 - The dataset used for training is a **Brain Tumor Dataset**,
